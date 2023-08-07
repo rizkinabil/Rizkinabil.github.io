@@ -1,61 +1,68 @@
 /* navbar */
 .nav-link {
-   color: #ffffff !important;
-   text-decoration: none;
-   position: relative;
+  color: #ffffff !important;
+  text-decoration: none;
+  position: relative;
 }
 
 .nav-link:hover {
-   color: #ffae4f !important;
+  color: #ffae4f !important;
 }
 
 .nav-link::before {
-   content: "";
-   transition: all 0.3s ease-in-out;
-   position: absolute;
-   right: 50%;
-   left: 50%;
-   bottom: 0;
-   height: 2px;
-   background-color: #ffae4f;
+  content: '';
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #ffae4f;
 }
 
 .nav-link:hover::before {
-   right: 0;
-   left: 0;
+  right: 0;
+  left: 0;
 }
 
 .card-modal {
-   max-width: 450px;
-   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.473), 0 10px 10px rgba(0, 0, 0, 0.473);
-   margin-bottom: 7px;
-   border-radius: 15px;
+  max-width: 450px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.473), 0 10px 10px rgba(0, 0, 0, 0.473);
+  margin-bottom: 7px;
+  border-radius: 15px;
+}
+
+.img-field {
+}
+
+.img-field > img {
+  height: 18rem;
 }
 
 #navbarBrand {
-   font-family: "Press Start 2P", cursive;
-   font-size: 15px;
-   color: rgb(215, 233, 133);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  color: rgb(215, 233, 133);
 }
 /* end of navbar */
 
 #home {
-   padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 #projects {
-   background-color: #dddfe2;
+  background-color: #dddfe2;
 }
 
 #button {
-   background-color: #3d55db;
+  background-color: #3d55db;
 }
 
 h3 {
-   font-size: 4;
-   margin-bottom: 3;
+  font-size: 4;
+  margin-bottom: 3;
 }
 
 section {
-   padding-top: 5rem;
+  padding-top: 5rem;
 }
